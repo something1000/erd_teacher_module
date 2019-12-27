@@ -1,0 +1,38 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+node_modules/
+
+/erdconstructro2/ERDConstructor2/nbproject/private/
+/erdconstructro2/ERDConstructor2/build/
+/erdconstructro2/ERDConstructor2/branding/target/
+/erdconstructro2/ERDConstructor2/application/target/
+/erdconstructro2/ERDConstructor2/ERDConstructor2-api/target/
+/erdconstructro2/ERDConstructor2/ERDConstructor2-treeView/target/
+/erdconstructro2/ERDConstructor2/ERDConstructor2-editor/target/
+/erdconstructro2/ERDConstructor2/ERDConstructor2-columnEditor/target/
+/erdconstructro2/ERDConstructor2/ERDConstructor2-globalSettings/target/
+/ERDConstructor2/com.pl.erdc2_ERDConstructor2-description/target/
+backend/.vs/
+backend/.vscode

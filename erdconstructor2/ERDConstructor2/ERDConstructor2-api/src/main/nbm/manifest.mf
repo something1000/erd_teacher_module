@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+OpenIDE-Module-Layer: com/pl/erdc2/erdconstructor2/api/layer.xml
+OpenIDE-Module-Localizing-Bundle: com/pl/erdc2/erdconstructor2/api/Bundle.properties
+

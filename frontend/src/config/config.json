@@ -1,0 +1,12 @@
+{
+    "production":{
+        "backend":{
+            "address":"http://erd.popi.pl:1996"
+        }
+    },
+    "development":{
+        "backend":{
+            "address":"http://localhost:1996"
+        }
+}
+}

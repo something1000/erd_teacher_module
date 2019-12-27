@@ -1,0 +1,64 @@
+{
+    "production": {
+        "node_port": 1996,
+        "mail":{
+            "host": "smtp.student.pg.edu.pl",
+            "port": 587,
+            "address": "databases@eti.pg.edu.pl",
+            "password": "123"
+        },
+        "database":{
+            "address": "localhost",
+            "username":"postgres",
+            "password": "1234",
+            "name": "postgres",
+            "port": 5432
+        },
+        "erd_constructor":{
+            "max_index_length": 6,
+            "min_index_length": 6
+        },
+        "frontend":{
+            "address": "http://erd.popi.pl",
+            "report_ep":"http://erd.popi.pl/report/"
+        },
+        "images":{
+            "path": "./erd_images",
+            "max_file_size": 1048576
+        },
+        "auth":{
+            "secret":"mysecretsshhh"
+        }
+    },
+    "development":{
+        "node_port": 1996,
+        "mail":{
+            "host": "smtp.student.pg.edu.pl",
+            "port": 587,
+            "address": "databases@eti.pg.edu.pl",
+            "password": "123"
+        },
+        "database":{
+            "address": "localhost",
+            "username":"postgres",
+            "password": "1234",
+            "name": "postgres",
+            "port": 5432
+        },
+        "erd_constructor":{
+            "max_index_length": 6,
+            "min_index_length": 6
+        },
+        "frontend":{
+            "address": "http://localhost:3000",
+            "report_ep":"http://localhost:3000/report/"
+        },
+        "images":{
+            "path": "./erd_images",
+            "max_file_size": 1048576
+        },
+        "auth":{
+            "secret":"mysecretsshhh"
+        }
+    }
+}
